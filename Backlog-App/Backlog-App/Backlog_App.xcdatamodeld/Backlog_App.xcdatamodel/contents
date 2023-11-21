@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22D49" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Book" representedClassName="Book" parentEntity="Media" syncable="YES" codeGenerationType="class"/>
+    <entity name="Game" representedClassName="Game" parentEntity="Media" syncable="YES" codeGenerationType="class"/>
+    <entity name="Genre" representedClassName="Genre" syncable="YES" codeGenerationType="class"/>
+    <entity name="Media" representedClassName="Media" syncable="YES" codeGenerationType="class">
+        <attribute name="completed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="synopsis" optional="YES" attributeType="String"/>
+        <attribute name="test" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Movie" representedClassName="Movie" parentEntity="Media" syncable="YES" codeGenerationType="class"/>
+    <entity name="Show" representedClassName="Show" parentEntity="Media" syncable="YES" codeGenerationType="class"/>
+</model>
